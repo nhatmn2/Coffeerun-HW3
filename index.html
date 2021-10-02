@@ -32,6 +32,9 @@
                     <div class="radio">
                         <label><input type="radio" name="size" value="grande">Grande</label>
                     </div>
+                    <div class="radio">
+                        <label><input type="radio" name="size" value="venti">Venti</label>
+                    </div>
                     <div class="form-group">
                         <label for="flavorShot">Flavor Shot</label>
                         <select id="flavorShot" class="form-control" name="flavor">
@@ -44,7 +47,7 @@
                     </div>
                     <div class="form-group">
                         <label for="strengthLevel">Caffeine Rating</label>
-                        <input name="strength" id="strengthLevel" type="range" value="70">
+                        <input name="strength" id="strengthLevel" type="range" value="100">
                     </div>
                     <button type="submit" class="btn btn-outline-primary">Submit</button>
                     <button type="reset" class="btn btn-outline-primary">Reset</button>
@@ -52,6 +55,10 @@
             </div>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script src="scripts/formhandler.js" charset="utf-8"></script>
     <script src="scripts/datastore.js" charset="utf-8"></script>
     <script src="scripts/truck.js" charset="utf-8"></script>
     <script src="scripts/main.js" charset="utf-8"></script>
