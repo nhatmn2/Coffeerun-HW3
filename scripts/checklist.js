@@ -34,7 +34,7 @@
               this.removeRow(email);
               fn(email);
             }.bind(this));
-          };
+        };
     }
 
     class Row {

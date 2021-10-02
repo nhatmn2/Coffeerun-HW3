@@ -12,6 +12,7 @@
     window.truck = truck;
 
     var checkList = new CheckList(CHECKLIST_SELECTOR);
+    checkList.addClickHandler(truck.deliverOrder.bind(truck));
     var formHandler = new FormHandler(FORM_SELECTOR);
     formHandler.addSubmitHandler(function(data){
         truck.createOrder.call(truck, data);
